@@ -1,0 +1,119 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: rgb(255, 217, 0);
+}
+
+.container-fluid{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 50px;
+}
+
+body{
+    padding-top: 60px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#button-container{
+    height: 200px;
+    position: relative;
+}
+
+#bb{
+    margin-top: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    text-shadow: 2px 2px #000000;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+footer{
+    bottom: 0%;
+    left: 0%;
+    font-size: small;
+    width: 100%;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.maping{
+    width: 250px;
+}
+
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font: 0.6em;
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font: 0.6em;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font: 0.6em;
+}
+
+.foothead{
+    font-size: 2em;
+}
+
+.tiny{
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+}
